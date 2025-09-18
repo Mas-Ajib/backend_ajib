@@ -104,25 +104,6 @@ return [
             explode(',', env('APP_PREVIOUS_KEYS', ''))
         ),
 
-    'providers' => [
-    /*
-     * Laravel Framework Service Providers...
-     */
-    Illuminate\Auth\AuthServiceProvider::class,
-    Illuminate\Broadcasting\BroadcastServiceProvider::class,
-    // ... lainnya
-
-    /*
-     * Package Service Providers...
-     */
-
-    /*
-     * Application Service Providers...
-     */
-    App\Providers\AppServiceProvider::class,
-    App\Providers\VoltServiceProvider::class, // Jika ada
-    // App\Providers\RouteServiceProvider::class, // HAPUS jika tidak ada filenya
-],
     ],
 
     /*
